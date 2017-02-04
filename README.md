@@ -1,5 +1,5 @@
 
-# Project ごのせん
+# Project kominka
 
 ## 動作環境
 
