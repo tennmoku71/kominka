@@ -146,3 +146,11 @@ https://github.com/gonosen/gonosenにアクセス
     - edit         -> /users/"ユーザーのID"/edit
 
 
+#エラー集
+
+##There was an error while trying to load the gem 'uglifier'.
+Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
+
+###sudo apt-get install node
+
+
