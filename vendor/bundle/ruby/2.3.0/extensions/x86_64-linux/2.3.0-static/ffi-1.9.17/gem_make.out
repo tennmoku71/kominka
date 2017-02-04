@@ -1,0 +1,52 @@
+current directory: /home/ohira/kominka/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.17/ext/ffi_c
+/home/ohira/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20170204-1061-blnmw8.rb extconf.rb 
+checking for ffi_call() in -lffi... yes
+checking for ffi_prep_closure()... yes
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ffi_prep_cif_var()... yes
+creating extconf.h
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/ohira/kominka/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/ffi-1.9.17/mkmf.log
+
+current directory: /home/ohira/kominka/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.17/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: /home/ohira/kominka/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.17/ext/ffi_c
+make "DESTDIR="
+compiling MethodHandle.c
+compiling ffi.c
+compiling LongDouble.c
+compiling Thread.c
+compiling Buffer.c
+compiling Type.c
+compiling Struct.c
+compiling ClosurePool.c
+compiling Platform.c
+compiling AbstractMemory.c
+compiling Pointer.c
+compiling Function.c
+compiling StructByValue.c
+compiling ArrayType.c
+compiling DataConverter.c
+compiling MappedType.c
+compiling StructLayout.c
+compiling Types.c
+compiling Call.c
+compiling FunctionInfo.c
+compiling LastError.c
+compiling StructByReference.c
+compiling DynamicLibrary.c
+compiling MemoryPointer.c
+compiling Variadic.c
+linking shared-object ffi_c.so
+
+current directory: /home/ohira/kominka/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.17/ext/ffi_c
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20170204-1061-2rqa6c

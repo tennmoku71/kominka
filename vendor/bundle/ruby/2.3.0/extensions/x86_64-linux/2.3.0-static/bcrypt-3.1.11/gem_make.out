@@ -1,0 +1,19 @@
+current directory: /home/ohira/kominka/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+/home/ohira/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20170204-1061-1a3b7tf.rb extconf.rb 
+creating Makefile
+
+current directory: /home/ohira/kominka/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/ohira/kominka/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR="
+compiling crypt_blowfish.c
+compiling wrapper.c
+compiling crypt_gensalt.c
+compiling bcrypt_ext.c
+compiling crypt.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/ohira/kominka/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20170204-1061-1jch8rd
